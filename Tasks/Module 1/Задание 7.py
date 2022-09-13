@@ -1,0 +1,8 @@
+a = int(input("Часы:"))
+b = int(input("Минуты:"))
+c = int(input("Секунды:"))
+a2 = int(input("Часы:"))
+b2 = int(input("Минуты:"))
+c2 = int(input("Секунды:"))
+M = (a2*60*60 +b2*60 + c2)-(a*60*60 + b*60 + c)
+print(M)

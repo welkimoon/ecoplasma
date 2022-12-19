@@ -9,6 +9,5 @@ def save_file (filename: str, words) -> None:
         f.write(f"Всего уникальных слов: {len(words)}\n")
         f.write("\n".join(words))
 
-
 words = read_file("DS.txt")
 save_file("DS.txt", sorted(words))
